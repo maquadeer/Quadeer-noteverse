@@ -1,41 +1,48 @@
 [
-{
+	{
 		"title": "Home",
-		"date":"Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
-		"url":"/",
+		"date": "Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
+		"url": "/",
 		"content": "MAQ's NoteVerse\n📒\nHey there, cyber nomads! I'm a CSE student, and this is my wisdom well in the digital realm. Join me on mind-bending adventures in the tech wonderland! 🚀 Don't forget to visit my personal blog for more insights! 💻🌐\n\n[!TIP] My library\nDo visit my <a class=\"internal-link\" data-note-icon=\"\" href=\"/books/\">Book library</a>\n\nQuick setup files\n\n<a class=\"internal-link\" data-note-icon=\"\" href=\"/my-obsidian-setup/\">My Obsidian Setup</a>\n<a class=\"internal-link\" data-note-icon=\"\" href=\"/cpp-14-sublime-linux-setup/\">c++ linux sublime setup</a>\n<a class=\"internal-link\" data-note-icon=\"\" href=\"/vim-setup/\">My personal Vim setup</a>",
-		"tags": [ "note","gardenEntry"]
-},
-
-{
+		"tags": [
+			"note",
+			"gardenEntry"
+		]
+	},
+	{
 		"title": "My Obsidian Setup",
-		"date":"Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
-		"url":"/my-obsidian-setup/",
+		"date": "Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
+		"url": "/my-obsidian-setup/",
 		"content": "[!TIP] Getting started\nClick here to get access to my .obsidian folder, paste it into your obsidian vault.\n\nWhy Choose Obsidian Notes?🗒️\n\nBidirectional Links🔗: Obsidian's unique bidirectional linking feature allows you to effortlessly connect ideas. No more lost connections or forgotten insights. Everything is at your fingertips.\n\nMarkdown Editor✏️: Write with ease using Markdown, a simple and versatile markup language. You'll love how quickly you can create structured and beautiful notes.\n\nGraph View📊: Visualize the relationships between your notes with the interactive graph view. It's like having a mind map of your knowledge.\n\nCustomization🎨: Obsidian is highly customizable, allowing you to tailor it to your specific needs. Whether you're a student, researcher, writer, or entrepreneur, Obsidian adapts to your workflow.\n\nLocal-first💾: Your data is stored locally on your device, ensuring complete privacy and control over your information. No more worrying about cloud-based data breaches.\n\nCommunity and Plugins👥: Join a vibrant community of Obsidian users and explore a vast library of plugins to extend Obsidian's functionality.\n\nWho Can Benefit from Obsidian Notes? 📚\n\nStudents: Organize your class notes, research, and study materials efficiently.\nResearchers: Connect disparate pieces of information to uncover new insights and breakthroughs.\nWriters: Craft and organize your content seamlessly with Obsidian's markdown editor.\nEntrepreneurs: Manage your business ideas, plans, and strategies in one central hub.\nCreatives: Inspire your artistic pursuits by connecting ideas and finding patterns in your work.\nEveryone: If you have thoughts, ideas, or information to manage, Obsidian Notes is for you.\n\nMake Your Ideas Thrive with Obsidian Notes\nStop struggling with fragmented notes and disconnected thoughts. Start making meaningful connections, uncovering insights, and unleashing your creativity with Obsidian Notes. Download it today and experience the power of structured thinking and knowledge management.\nJoin the Obsidian community and embark on a journey of intellectual growth, innovation, and creativity like never before. Your knowledge is waiting to be unleashed with Obsidian Notes!",
-		"tags": [ "note"]
-},
-
-{
+		"tags": [
+			"note"
+		]
+	},
+	{
 		"title": "books",
-		"date":"Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
-		"url":"/books/",
+		"date": "Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
+		"url": "/books/",
 		"content": "Welcome to MAQ's Book Nook\nWhere books find you! 📚✨\n\n[!NOTE] Note\nThis rating is based on my personal experience\n\nBook Title\nAuthor\nGenre\nPublished Year\nReading Status\n\nRich Dad Poor Dad\nRobert T. Kiyosaki\nPersonal Finance\n1997\nRead\n\nAtomic Habits\nJames Clear\nSelf-Help\n2018\nRead\n\nIkigai\nHéctor García &amp; Francesc Miralles\nSelf-Help\n2016\nRead\n\nDeep Work\nCal Newport\nProductivity\n2016\nReading\n\nThe 7 Habits of Highly Effective People\nStephen R. Covey\nSelf-Help\n1989\nRead\n\nGetting Things Done\nDavid Allen\nProductivity\n2001\nReading\n\nThe Power of Habit\nCharles Duhigg\nSelf-Help/Productivity\n2012\nRead\n\nEssentialism\nGreg McKeown\nSelf-Help/Productivity\n2014\nReading\n\nMindset: The New Psychology of Success\nCarol S. Dweck\nSelf-Help\n2006\nReading\n\nThe Lean Startup\nEric Ries\nBusiness/Entrepreneurship\n2011\nRead\n\nThinking, Fast and Slow\nDaniel Kahneman\nPsychology\n2011\nReading\n\nDrive: The Surprising Truth About What Motivates Us\nDaniel H. Pink\nPsychology\n2009\nRead",
-		"tags": [ "note"]
-},
-
-{
+		"tags": [
+			"note"
+		]
+	},
+	{
 		"title": "cpp 14 sublime linux setup",
-		"date":"Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
-		"url":"/cpp-14-sublime-linux-setup/",
+		"date": "Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
+		"url": "/cpp-14-sublime-linux-setup/",
 		"content": "{\n&quot;cmd&quot; : [&quot;g++ -std=c++14 $file_name -o $file_base_name &amp;&amp; timeout 4s ./$file_base_name&lt;inputf.in&gt;outputf.in&quot;],\n&quot;selector&quot; : &quot;source.c&quot;,\n&quot;shell&quot;: true,\n&quot;working_dir&quot; : &quot;$file_path&quot;\n}\n\nsave the file as\nC++14_linux.sublime-build\n\n[!WARNING] Warning\nThe build might not work if the file is named incorrectly",
-		"tags": [ "note"]
-},
-
-{
+		"tags": [
+			"note"
+		]
+	},
+	{
 		"title": "vim setup",
-		"date":"Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
-		"url":"/vim-setup/",
+		"date": "Sat Sep 30 2023 22:09:05 GMT+0530 (India Standard Time)",
+		"url": "/vim-setup/",
 		"content": "Basic vim setup\n\n[!NOTE] Note\nPaste the below code in vimrc file\n\nsyntax on\nfiletype plugin indent on\nset modelines=0\nset number\nset ruler\nset visualbell\nset encoding=utf-8\nset wrap\nset textwidth=79\nset formatoptions=tcqrn1\nset tabstop=2\nset shiftwidth=2\nset softtabstop=2\nset expandtab\nset noshiftround\n\n&quot; Cursor motion\nset scrolloff=3\nset backspace=indent,eol,start\nset matchpairs+=&lt;:&gt;\nruntime! macros/matchit.vim\nnnoremap j gj\nnnoremap k gk\nset hidden\nset ttyfast\n\n&quot; Status bar\nset laststatus=2\n\n&quot; Last line\nset showmode\nset showcmd\n\n&quot; Searching\nnnoremap / /\\v\nvnoremap / /\\v\nset hlsearch\nset incsearch\nset ignorecase\nset smartcase\nset showmatch\nmap &lt;leader&gt;&lt;space&gt; :let @/=''&lt;cr&gt; &quot; clear search\n\n&quot; Visualize tabs and newlines\nset listchars=tab:▸\\ ,eol:¬\n&quot; Uncomment this to enable by default:\n&quot; set list &quot; To enable by default\n&quot; Or use your leader key + l to toggle on/off\nmap &lt;leader&gt;l :set list!&lt;CR&gt; &quot; Toggle tabs and EOL\n\nHere is the complete breakdown:\nsyntax on\n\nsyntax on enables syntax highlighting in Vim. This highlights different elements of your code with different colors to make it more readable and easier to understand.\n\nfiletype plugin indent on\n\nfiletype plugin indent on enables file type detection, which allows Vim to automatically detect the type of file you are editing and apply appropriate settings and plugins for that file type. It also enables automatic indentation based on the file type.\n\nset modelines=0\n\nset modelines=0 disables the reading of modelines. Modelines are special comments in a file that can be used to specify settings for that file. Setting this to 0 means Vim won't read and apply settings from modelines.\n\nset number\n\nset number displays line numbers on the left side of the editor, making it easier to reference specific lines in the file.\n\nset ruler\n\nset ruler displays the current line and column number in the status line at the bottom of the Vim window.\n\nset visualbell\n\nset visualbell replaces the audible bell with a visual bell. When an error or warning occurs, Vim will flash the screen instead of producing a sound.\n\nset encoding=utf-8\n\nset encoding=utf-8 sets the character encoding to UTF-8, which is a widely used encoding for handling a wide range of characters from different languages.\n\nset wrap\n\nset wrap enables line wrapping, causing long lines to wrap to the next line if they exceed the screen width.\n\nset textwidth=79\n\nset textwidth=79 sets the maximum line width to 79 characters. This can be useful for ensuring that your code conforms to a specific line length limit.\n\nset formatoptions=tcqrn1\n\nset formatoptions=tcqrn1 sets various formatting options for auto-indentation and text formatting. These options control how Vim formats text as you type.\n\nset tabstop=2\nset shiftwidth=2\nset softtabstop=2\nset expandtab\nset noshiftround\n\nThese lines configure indentation settings. They set the tab width to 2 spaces, the number of spaces to use for each level of indentation, and configure tabs to be expanded as spaces.\n\n&quot; Cursor motion\nset scrolloff=3\n\nset scrolloff=3 configures Vim to keep at least 3 lines of context when scrolling up or down. This helps maintain context while navigating through the file.\n\nset backspace=indent,eol,start\n\nset backspace=indent,eol,start allows you to use the Backspace key to delete characters beyond the current indent, at the end of a line, and at the start of insert mode.\n\nset matchpairs+=&lt;:&gt;\nruntime! macros/matchit.vim\n\nThese lines configure matching pairs for brackets (&lt;:&gt;). It also loads the matchit.vim plugin, which enhances Vim's ability to jump between matching pairs of characters using the % key.\n\nnnoremap j gj\nnnoremap k gk\n\nThese lines create non-recursive key mappings for j and k to make them move by display lines (gj and gk) instead of actual lines. This can be useful when working with wrapped lines.\n\nset hidden\n\nset hidden allows you to switch between buffers without saving changes. Unsaved changes are preserved in the background.\n\nset ttyfast\n\nset ttyfast optimizes Vim for faster terminal response.\n\n&quot; Status bar\nset laststatus=2\n\nset laststatus=2 ensures that the status bar is always displayed with at least two lines.\n\n&quot; Last line\nset showmode\nset showcmd\n\nThese lines enable the display of the current mode (e.g., Normal, Insert) and show partial command input at the bottom of the screen.\n\n&quot; Searching\nnnoremap / /\\v\nvnoremap / /\\v\nset hlsearch\nset incsearch\nset ignorecase\nset smartcase\nset showmatch\nmap &lt;leader&gt;&lt;space&gt; :let @/=''&lt;cr&gt; &quot; clear search\n\nThese lines configure various aspects of searching and search highlighting in Vim. They also create key mappings for search-related commands and provide a mapping to clear the search pattern using &lt;leader&gt;&lt;space&gt;.\n\n&quot; Visualize tabs and newlines\nset listchars=tab:▸\\ ,eol:¬\n&quot; Uncomment this to enable by default:\n&quot; set list &quot; To enable by default\n&quot; Or use your leader key + l to toggle on/off\nmap &lt;leader&gt;l :set list!&lt;CR&gt; &quot; Toggle tabs and EOL\n\nThese lines configure how tabs and newlines are visualized. They use special characters to represent tabs (▸) and end-of-line characters (¬). Additionally, there's a key mapping to toggle the visualization of tabs and EOL characters using &lt;leader&gt;l.\n\nThis .vimrc file provides various settings and key mappings to enhance your Vim experience. You can customize it further to suit your preferences.\n\n[!NOTE] Note\nAlso checkout my other setup files -&gt; <a class=\"internal-link\" data-note-icon=\"\" href=\"/\">Home</a>",
-		"tags": [ "note"]
-}
+		"tags": [
+			"note"
+		]
+	}
 ]
