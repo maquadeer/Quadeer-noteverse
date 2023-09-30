@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>/404/</loc>
+            <lastmod>2023-09-30T16:39:05.376Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/</loc>
+            <lastmod>2023-09-30T16:39:05.382Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/my-obsidian-setup/</loc>
+            <lastmod>2023-09-30T16:39:05.382Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/books/</loc>
+            <lastmod>2023-09-30T16:39:05.383Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/cpp-14-sublime-linux-setup/</loc>
+            <lastmod>2023-09-30T16:39:05.383Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/vim-setup/</loc>
+            <lastmod>2023-09-30T16:39:05.383Z</lastmod>
+        </url>
+    
+</urlset>
