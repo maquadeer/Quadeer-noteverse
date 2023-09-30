@@ -1,1 +1,122 @@
-{"homeAlias":"/","nodes":{"/":{"id":0,"title":"Home","url":"/","group":"none","home":true,"outBound":["/books/","/my-obsidian-setup/","/cpp-14-sublime-linux-setup/","/vim-setup/"],"neighbors":["/books/","/my-obsidian-setup/","/cpp-14-sublime-linux-setup/","/vim-setup/"],"backLinks":["/vim-setup/"],"noteIcon":"","hide":false,"size":4},"/my-obsidian-setup/":{"id":1,"title":"My Obsidian Setup","url":"/my-obsidian-setup/","group":"none","home":false,"outBound":[],"neighbors":["/"],"backLinks":["/"],"noteIcon":"","hide":false,"size":1},"/books/":{"id":2,"title":"books","url":"/books/","group":"none","home":false,"outBound":[],"neighbors":["/"],"backLinks":["/"],"noteIcon":"","hide":false,"size":1},"/cpp-14-sublime-linux-setup/":{"id":3,"title":"cpp 14 sublime linux setup","url":"/cpp-14-sublime-linux-setup/","group":"none","home":false,"outBound":[],"neighbors":["/"],"backLinks":["/"],"noteIcon":"","hide":false,"size":1},"/vim-setup/":{"id":4,"title":"vim setup","url":"/vim-setup/","group":"none","home":false,"outBound":["/"],"neighbors":["/"],"backLinks":["/"],"noteIcon":"","hide":false,"size":1}},"links":[{"source":0,"target":2},{"source":0,"target":1},{"source":0,"target":3},{"source":0,"target":4},{"source":4,"target":0}]}
+{
+    "homeAlias": "/",
+    "nodes": {
+        "/": {
+            "id": 0,
+            "title": "Home",
+            "url": "/",
+            "group": "none",
+            "home": true,
+            "outBound": [
+                "/books/",
+                "/my-obsidian-setup/",
+                "/cpp-14-sublime-linux-setup/",
+                "/vim-setup/"
+            ],
+            "neighbors": [
+                "/books/",
+                "/my-obsidian-setup/",
+                "/cpp-14-sublime-linux-setup/",
+                "/vim-setup/"
+            ],
+            "backLinks": [
+                "/vim-setup/"
+            ],
+            "noteIcon": "",
+            "hide": false,
+            "size": 4
+        },
+        "/my-obsidian-setup/": {
+            "id": 1,
+            "title": "My Obsidian Setup",
+            "url": "/my-obsidian-setup/",
+            "group": "none",
+            "home": false,
+            "outBound": [],
+            "neighbors": [
+                "/"
+            ],
+            "backLinks": [
+                "/"
+            ],
+            "noteIcon": "",
+            "hide": false,
+            "size": 1
+        },
+        "/books/": {
+            "id": 2,
+            "title": "books",
+            "url": "/books/",
+            "group": "none",
+            "home": false,
+            "outBound": [],
+            "neighbors": [
+                "/"
+            ],
+            "backLinks": [
+                "/"
+            ],
+            "noteIcon": "",
+            "hide": false,
+            "size": 1
+        },
+        "/cpp-14-sublime-linux-setup/": {
+            "id": 3,
+            "title": "cpp 14 sublime linux setup",
+            "url": "/cpp-14-sublime-linux-setup/",
+            "group": "none",
+            "home": false,
+            "outBound": [],
+            "neighbors": [
+                "/"
+            ],
+            "backLinks": [
+                "/"
+            ],
+            "noteIcon": "",
+            "hide": false,
+            "size": 1
+        },
+        "/vim-setup/": {
+            "id": 4,
+            "title": "vim setup",
+            "url": "/vim-setup/",
+            "group": "none",
+            "home": false,
+            "outBound": [
+                "/"
+            ],
+            "neighbors": [
+                "/"
+            ],
+            "backLinks": [
+                "/"
+            ],
+            "noteIcon": "",
+            "hide": false,
+            "size": 1
+        }
+    },
+    "links": [
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 0,
+            "target": 4
+        },
+        {
+            "source": 4,
+            "target": 0
+        }
+    ]
+}
