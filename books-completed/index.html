@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>books</title>
+    <title>Books completed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -143,7 +143,16 @@
     
         <div x-show="isOpen" style="display:none" class="">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/books/">books </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/books-completed/">Books completed </a>
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/books-to-read/">Books to Read </a>
                 </div>
             
         </div>
@@ -352,7 +361,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-09-30T17:54:37.334Z';
+        const searchIndexDate = '2023-10-01T11:53:25.487Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -364,9 +373,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-09-30T17:54:37.334Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-10-01T11:53:25.487Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-09-30T17:54:37.334Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-10-01T11:53:25.487Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -598,7 +607,7 @@
     <main class="content cm-s-obsidian ">
       <header>
         
-          <h1 data-note-icon="">books</h1>
+          <h1 data-note-icon="">Books completed</h1>
         
         <div class="header-meta">
           </div>
@@ -607,107 +616,49 @@
       </header>
       
       
-      <h1 id="welcome-to-maq-s-book-nook" tabindex="-1">Welcome to MAQ's  Book Nook</h1>
-<p>Where books find you! 📚✨</p>
-<div class="callout " data-callout="note"><div class="callout-title"><div class="callout-title-inner"> Note<br></div></div>
-<div class="callout-content">
-<p>
-This rating is based on my personal experience</p>
-</div></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th><strong>Book Title</strong></th>
-<th><em>Author</em></th>
-<th><em>Genre</em></th>
-<th><em>Published Year</em></th>
-<th><em>Reading Status</em></th>
+      <div class="block-language-dataview table-wrapper"><table class="dataview table-view-table">
+<thead class="table-view-thead">
+<tr class="table-view-tr-header">
+<th class="table-view-th">File</th>
+<th class="table-view-th">Author</th>
+<th class="table-view-th">Cover</th>
+<th class="table-view-th">pages</th>
+<th class="table-view-th">genre</th>
+<th class="table-view-th">rating</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="table-view-tbody">
 <tr>
-<td><strong>Rich Dad Poor Dad</strong></td>
+<td><a class="internal-link is-unresolved" href="/404">Rich Dad Poor Dad</a></td>
 <td>Robert T. Kiyosaki</td>
-<td>Personal Finance</td>
-<td>1997</td>
-<td>Read</td>
+<td><img src="http://books.google.com/books/content?id=Cx6aDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="|100" width="100px"></td>
+<td>206</td>
+<td>Business &amp; Economics</td>
+<td>★★★★</td>
 </tr>
 <tr>
-<td><strong>Atomic Habits</strong></td>
+<td><a class="internal-link is-unresolved" href="/404">Ikigai</a></td>
+<td>Keira Miki</td>
+<td><img src="http://books.google.com/books/content?id=nb3vzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="|100" width="100px"></td>
+<td>114</td>
+<td>Self-Help</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td><a class="internal-link is-unresolved" href="/404">Atomic Habits</a></td>
 <td>James Clear</td>
-<td>Self-Help</td>
-<td>2018</td>
-<td>Read</td>
+<td><img src="http://books.google.com/books/content?id=rruOEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="|100" width="100px"></td>
+<td>0</td>
+<td>Business &amp; Economics</td>
+<td>★★★★★</td>
 </tr>
 <tr>
-<td><strong>Ikigai</strong></td>
-<td>Héctor García &amp; Francesc Miralles</td>
-<td>Self-Help</td>
-<td>2016</td>
-<td>Read</td>
-</tr>
-<tr>
-<td><strong>Deep Work</strong></td>
-<td>Cal Newport</td>
-<td>Productivity</td>
-<td>2016</td>
-<td>Reading</td>
-</tr>
-<tr>
-<td><strong>The 7 Habits of Highly Effective People</strong></td>
+<td><a class="internal-link is-unresolved" href="/404">The Seven Habits of Highly Effective People</a></td>
 <td>Stephen R. Covey</td>
-<td>Self-Help</td>
-<td>1989</td>
-<td>Read</td>
-</tr>
-<tr>
-<td><strong>Getting Things Done</strong></td>
-<td>David Allen</td>
-<td>Productivity</td>
-<td>2001</td>
-<td>Reading</td>
-</tr>
-<tr>
-<td><strong>The Power of Habit</strong></td>
-<td>Charles Duhigg</td>
-<td>Self-Help/Productivity</td>
-<td>2012</td>
-<td>Read</td>
-</tr>
-<tr>
-<td><strong>Essentialism</strong></td>
-<td>Greg McKeown</td>
-<td>Self-Help/Productivity</td>
-<td>2014</td>
-<td>Reading</td>
-</tr>
-<tr>
-<td><strong>Mindset: The New Psychology of Success</strong></td>
-<td>Carol S. Dweck</td>
-<td>Self-Help</td>
-<td>2006</td>
-<td>Reading</td>
-</tr>
-<tr>
-<td><strong>The Lean Startup</strong></td>
-<td>Eric Ries</td>
-<td>Business/Entrepreneurship</td>
-<td>2011</td>
-<td>Read</td>
-</tr>
-<tr>
-<td><strong>Thinking, Fast and Slow</strong></td>
-<td>Daniel Kahneman</td>
-<td>Psychology</td>
-<td>2011</td>
-<td>Reading</td>
-</tr>
-<tr>
-<td><strong>Drive: The Surprising Truth About What Motivates Us</strong></td>
-<td>Daniel H. Pink</td>
-<td>Psychology</td>
-<td>2009</td>
-<td>Read</td>
+<td><img src="http://books.google.com/books/content?id=hENIewAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="|100" width="100px"></td>
+<td>572</td>
+<td>Business &amp; Economics</td>
+<td>★★★★</td>
 </tr>
 </tbody>
 </table></div>
@@ -940,23 +891,6 @@ This rating is based on my personal experience</p>
 
                   
                         
-                        
-                              <div class="toc">
-                                    <div class="toc-title-container">
-                                          <div class="toc-title">
-                                                On this page
-                                          </div>
-                                    </div>
-                                    <div class="toc-container">
-                                          <nav class="toc">
-                <ol>
-                    
-                    <li><a href="#welcome-to-maq-s-book-nook">Welcome to MAQ's  Book Nook</a>
-            		</li>
-                </ol>
-            </nav>
-                                    </div>
-                              </div>
                         
 
                   

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Books to Read</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -82,6 +82,7 @@
   <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section ">
     
     
+    
       
     
     <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" 
@@ -151,7 +152,7 @@
     
         <div x-show="isOpen" style="display:none" class="">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/books-to-read/">Books to Read </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/books-to-read/">Books to Read </a>
                 </div>
             
         </div>
@@ -169,7 +170,7 @@
     
         <div x-show="isOpen" style="display:none" class="">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">Home </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">Home </a>
                 </div>
             
         </div>
@@ -197,6 +198,7 @@
     </div>
 
     
+
     
       <div class="search-container" id="globalsearch" onclick="toggleSearch()">
     <div class="search-box">
@@ -601,37 +603,60 @@
     }
 </script>
     
+
     <main class="content cm-s-obsidian ">
       <header>
-      
-        <h1></h1>
-      
-
-      <div class="header-meta">
         
-      </div>
+          <h1 data-note-icon="">Books to Read</h1>
+        
+        <div class="header-meta">
+          </div>
       
       
       </header>
       
       
-      <h1 id="maq-s-note-verse" tabindex="-1">MAQ's NoteVerse</h1>
- <h1 style="font-size: 80px">📒</h1>
- Hey there, cyber nomads! I'm a CSE student, and this is my wisdom well in the digital realm. Join me on mind-bending adventures in the tech wonderland! 🚀 Don't forget to visit my <a href="https://themaqblog.netlify.app/">personal blog</a> for more insights! 💻🌐 
-<div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> My book library<br></div></div>
-<div class="callout-content">
-<p>
-<a class="internal-link" data-note-icon="" href="/books-completed/">Books completed</a><br>
-<a class="internal-link" data-note-icon="" href="/books-to-read/">Books to Read</a></p>
-</div></div>
-<hr>
-<h2 id="quick-setup-files" tabindex="-1">Quick setup files</h2>
-<ol>
-<li><a class="internal-link" data-note-icon="" href="/my-obsidian-setup/">My Obsidian Setup</a></li>
-<li><a class="internal-link" data-note-icon="" href="/cpp-14-sublime-linux-setup/">c++ linux sublime setup</a></li>
-<li><a class="internal-link" data-note-icon="" href="/vim-setup/">My personal Vim setup</a></li>
-</ol>
-<hr>
+      <div class="block-language-dataview table-wrapper"><table class="dataview table-view-table">
+<thead class="table-view-thead">
+<tr class="table-view-tr-header">
+<th class="table-view-th">File</th>
+<th class="table-view-th">Author</th>
+<th class="table-view-th">Cover</th>
+<th class="table-view-th">pages</th>
+<th class="table-view-th">genre</th>
+</tr>
+</thead>
+<tbody class="table-view-tbody">
+<tr>
+<td><a class="internal-link is-unresolved" href="/404">Essentialism</a></td>
+<td>Greg McKeown</td>
+<td><img src="http://books.google.com/books/content?id=YWlcAgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="|100" width="100px"></td>
+<td>274</td>
+<td>Business &amp; Economics</td>
+</tr>
+<tr>
+<td><a class="internal-link is-unresolved" href="/404">Do Epic Shit</a></td>
+<td>Ankur Warikoo</td>
+<td><img src="http://books.google.com/books/content?id=Z0HuzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="|100" width="100px"></td>
+<td>0</td>
+<td>Habit</td>
+</tr>
+<tr>
+<td><a class="internal-link is-unresolved" href="/404">Deep Work</a></td>
+<td>Cal Newport</td>
+<td><img src="http://books.google.com/books/content?id=B_L8CAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="|100" width="100px"></td>
+<td>288</td>
+<td>Business &amp; Economics</td>
+</tr>
+<tr>
+<td><a class="internal-link is-unresolved" href="/404">The Lean Startup</a></td>
+<td>Eric Ries</td>
+<td><img src="http://books.google.com/books/content?id=tvfyz-4JILwC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="|100" width="100px"></td>
+<td>338</td>
+<td>Business &amp; Economics</td>
+</tr>
+</tbody>
+</table></div>
 
       
       
@@ -862,29 +887,6 @@
                   
                         
                         
-                              <div class="toc">
-                                    <div class="toc-title-container">
-                                          <div class="toc-title">
-                                                On this page
-                                          </div>
-                                    </div>
-                                    <div class="toc-container">
-                                          <nav class="toc">
-                <ol>
-                    
-                    <li><a href="#maq-s-note-verse">MAQ's NoteVerse</a>
-            
-                <ol>
-                    
-                    <li><a href="#quick-setup-files">Quick setup files</a>
-            		</li>
-                </ol>
-            		</li>
-                </ol>
-            </nav>
-                                    </div>
-                              </div>
-                        
 
                   
 
@@ -892,7 +894,7 @@
                               
                               <div class="backlinks">
                                     <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/vim-setup/" data-note-icon="" class="backlink">vim setup</a>
+                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/" data-note-icon="" class="backlink">Home</a>
                                                 </div></div>
                               </div>
                         
@@ -1062,6 +1064,39 @@
 </script>
 
     
+        <script>
+      if (window.location.hash) {
+        document.getElementById(window.location.hash.slice(1)).classList.add('referred');
+      }
+      window.addEventListener('hashchange', (evt) => {
+        const oldParts = evt.oldURL.split("#");
+        if (oldParts[1]) {
+          document.getElementById(oldParts[1]).classList.remove('referred');
+        }
+        const newParts = evt.newURL.split("#");
+        if (newParts[1]) {
+          document.getElementById(newParts[1]).classList.add('referred');
+        }
+      }, false);
+      const url_parts = window.location.href.split("#")
+      const url = url_parts[0];
+      const referrence = url_parts[1];
+      document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function (el) {
+        el.ondblclick = function(evt) {
+          const ref_url = url + '#' + evt.target.id
+          navigator.clipboard.writeText(ref_url);
+      }
+      });
+
+      
+    </script>
+    <script src=" https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js "></script>
+<script defer>
+    TIMESTAMP_FORMAT = "MMM dd, yyyy h:mm a";
+    document.querySelectorAll('.human-date').forEach(function (el) {
+        el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
+      });
+</script>
     
     
     <script>
@@ -1071,5 +1106,5 @@ lucide.createIcons({
             }
         });
 </script>
-    </body>
-  </html>
+  </body>
+</html>
